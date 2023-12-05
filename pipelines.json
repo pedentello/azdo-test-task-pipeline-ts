@@ -1,0 +1,18 @@
+{
+    "description": "List of Pipelines",
+    "version": {
+        "Major": 1,
+        "Minor": 0,
+        "Patch": 0
+    },
+    "pipelines": [
+       {
+            "name": "flutter",
+            "tasks": ["FlutterInstall@0","FlutterNew@0"]
+       }, 
+       {
+            "name": "java",
+            "tasks": ["FlutterInstall@0"]
+       } 
+    ]
+}

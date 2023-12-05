@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+      "target": "es2015",
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "declaration": true,
+      "outDir": "_build"
+  },
+  "files": [
+    "run.ts",
+    "flutter.ts",
+    "java.ts"
+  ],
+  "exclude": [
+      "node_modules"
+  ]
+}

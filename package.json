@@ -1,0 +1,22 @@
+{
+    "name": "test-pipelines",
+    "version": "1.0.0",
+    "description": "Teste Pipelines",
+    "main": "make.js",
+    "author": "",
+    "license": "ISC",
+    "scripts": {
+        "build": "node make.js build",
+        "test": "node make.js test",
+        "flutter": "node ./_build/run.js flutter",
+        "all": "node ./_build/run.js"
+    },
+    "dependencies": {
+        "azure-devops-node-api": "^12.1.0"
+    },
+    "devDependencies": {
+        "@types/node": "^20.10.0",
+        "shelljs": "^0.8.5",
+        "typescript": "^5.3.2"
+    }
+}
